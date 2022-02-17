@@ -3,4 +3,6 @@ body {
     align-content: center;
     margin: 25;
     line-height: 40%;
+    display: grid;
+    grid-template-columns: 50%, 50%;
 }
