@@ -10,6 +10,7 @@ body {
 }
 
 .btn {
+    background: url(https://imgur.com/a/d7lIfH7);
     width: 20%;
     height: 20%;
     padding: 25px;
@@ -22,6 +23,7 @@ body {
     transition: .3s, ease;
     transition: all 0.5s;
     font-family: 'Nunito', sans-serif;
+    background: url(https://imgur.com/a/d7lIfH7);
 }
 
 .btn span {
