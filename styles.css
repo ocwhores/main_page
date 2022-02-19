@@ -8,3 +8,13 @@ body {
     margin: 25;
     line-height: 40%;
 }
+
+.btn {
+    width: 100%;
+    padding: 25px;
+    background-color: #fee4e4;
+    font-size: 20px;
+    display: flex;
+    flex-grow: 1;
+    background-image: url("https://imgur.com/a/d7lIfH7");
+}
