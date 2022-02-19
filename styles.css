@@ -10,12 +10,40 @@ body {
 }
 
 .btn {
-    width: 100%;
+    width: 20%;
+    height: 20%;
     padding: 25px;
     background-color: #fee4e4;
     font-size: 20px;
-    display: flex;
-    flex-grow: 1;
-    background-image: url("https://imgur.com/a/d7lIfH7");
     border-radius: 8px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0!important;
+    transition: .3s, ease;
+    transition: all 0.5s;
 }
+
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
