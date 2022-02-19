@@ -21,6 +21,7 @@ body {
     margin: 0!important;
     transition: .3s, ease;
     transition: all 0.5s;
+    font-family: 'Nunito', sans-serif;
 }
 
 .btn span {
