@@ -17,4 +17,5 @@ body {
     display: flex;
     flex-grow: 1;
     background-image: url("https://imgur.com/a/d7lIfH7");
+    border-radius: 8px;
 }
